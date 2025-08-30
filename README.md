@@ -32,6 +32,22 @@ git branch -a
 git branch -vv
 ```
 
+### Status
+Command:
+```bash
+git status
+```
+Example Response:
+```bash
+On branch feature/responsive-util-menu
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   client/src/components/UtilMenu.tsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
 ## Git Workflows
 ### Git Branch Workflow
 1. Check out from the current branch and create a new branch. 
