@@ -3,17 +3,33 @@ This is a cheat sheet for git commands and git workflows.
 
 ## Common Git Commands
 ### Branches
-1. Create a new branch and checkout to that
+1. Create a new branch and checkout to that:
 ```bash
 git checkout -b branch-name
 ```
-2. Checkout to an existing branch
+2. Checkout to an existing branch:
 ```bash
 git checkout branch-name
 ```
-3. Delete a branch
+3. Delete a branch:
 ```bash
 git branch -D branch-name
+```
+4. List only local branches:
+```bash
+git branch
+```
+5. List only remote branches:
+```bash
+git branch -r
+```
+6. List all branches (local + Remote):
+```bash
+git branch -a
+```
+7. Show branches with last commit info (more detailed):
+```bash
+git branch -vv
 ```
 
 ## Git Workflows
